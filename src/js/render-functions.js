@@ -8,9 +8,6 @@ let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
-// У файлі render-functions.js створено екземпляр SimpleLightbox та є функції
-// для відображення елементів інтерфейсу: createGallery(images),
-//  clearGallery(),  showLoader(),  hideLoader()
 
 // webformatURL — посилання на маленьке зображення для списку карток у галереї
 // largeImageURL — посилання на велике зображення для модального вікна
